@@ -10,13 +10,15 @@
     </PropertyGroup>
     <PropertyGroup>
         <!-- NuGet Package properties -->
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <Version>2.8.6</Version>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <Version>2.8.6.1</Version>
         <Authors>Artem Valieiev</Authors>
+        <IncludeSymbols>true</IncludeSymbols>
         <Product>scenee.FloatingPanel</Product>
         <Description>Binding library for clean and easy-to-use floating panel UI component for dotnet iOS.</Description>
-        <RepositoryUrl>https://github.com/artemvalieiev/FloatingPanel</RepositoryUrl>
+        <RepositoryUrl>https://github.com/artemvalieiev/scenee.FloatingPanel.dotnet</RepositoryUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
     <ItemGroup>
         <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
@@ -24,6 +26,9 @@
     </ItemGroup>
     <ItemGroup>
         <NativeReference Include="../build/FloatingPanel.xcframework" Kind="Framework" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
