@@ -23,10 +23,7 @@ public partial class MainViewController : UIViewController
 		
 		fpc = new FloatingPanelController();
 		fpc.Delegate = new MainViewControllerFloatingPanelControllerDelegate();
-
-		// Assign self as the delegate of the controller.
-
-		// Set a content view controller.
+		
 		var contentVc = UIStoryboard.FromName("Main", NSBundle.MainBundle)
 			.InstantiateViewController("SheetViewController");
 		fpc.ContentViewController = new UINavigationController(contentVc)

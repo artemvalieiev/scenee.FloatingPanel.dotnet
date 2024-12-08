@@ -10,13 +10,12 @@
     </PropertyGroup>
     <PropertyGroup>
         <!-- NuGet Package properties -->
-        <!-- <PackageReadmeFile>README.md</PackageReadmeFile> -->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <Version>2.8.6</Version>
         <Authors>Artem Valieiev</Authors>
         <Product>scenee.FloatingPanel</Product>
-        <Description>A clean and easy-to-use floating panel UI component for iOS.</Description>
+        <Description>Binding library for clean and easy-to-use floating panel UI component for dotnet iOS.</Description>
         <RepositoryUrl>https://github.com/artemvalieiev/FloatingPanel</RepositoryUrl>
-        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
     <ItemGroup>
