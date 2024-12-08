@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <Nullable>enable</Nullable>
+        <IsBindingProject>true</IsBindingProject>
+        <AssemblyName>FloatingPanel</AssemblyName>
+        <RootNamespace>FloatingPanel</RootNamespace>
+        <MtouchExtraArgs>-ObjC</MtouchExtraArgs>
+    </PropertyGroup>
+    <PropertyGroup>
+        <!-- NuGet Package properties -->
+        <!-- <PackageReadmeFile>README.md</PackageReadmeFile> -->
+        <Version>2.8.6</Version>
+        <Authors>Artem Valieiev</Authors>
+        <Product>scenee.FloatingPanel</Product>
+        <Description>A clean and easy-to-use floating panel UI component for iOS.</Description>
+        <RepositoryUrl>https://github.com/artemvalieiev/FloatingPanel</RepositoryUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+    <ItemGroup>
+        <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
+        <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <NativeReference Include="../build/FloatingPanel.xcframework" Kind="Framework" />
+    </ItemGroup>
+
+</Project>
