@@ -1,6 +1,6 @@
 using ObjCRuntime;
 
-namespace FloatingPanel;
+namespace Scenee.FloatingPanel;
 
 [Native]
 public enum ContentInsetAdjustmentBehavior : long

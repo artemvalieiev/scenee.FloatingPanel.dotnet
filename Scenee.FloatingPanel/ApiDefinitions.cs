@@ -5,7 +5,7 @@ using ObjCRuntime;
 using CoreGraphics;
 using UIKit;
 
-namespace FloatingPanel;
+namespace Scenee.FloatingPanel;
 
 // @interface FloatingPanelBackdropView : UIView
 [BaseType(typeof(UIView))]

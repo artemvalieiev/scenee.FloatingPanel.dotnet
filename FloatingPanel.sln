@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingPanel", "FloatingPanel\FloatingPanel.csproj", "{4B2AE4C4-2EE2-4E5A-ACD1-A9A8C84E2A8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenee.FloatingPanel", "Scenee.FloatingPanel\Scenee.FloatingPanel.csproj", "{4B2AE4C4-2EE2-4E5A-ACD1-A9A8C84E2A8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingPanel.Sample", "FloatingPanel.Sample\FloatingPanel.Sample.csproj", "{271BEF95-A213-4D5B-8227-F5C1EC94F4D2}"
 EndProject

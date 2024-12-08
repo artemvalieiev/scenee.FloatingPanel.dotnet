@@ -4,17 +4,19 @@
         <TargetFramework>net8.0-ios</TargetFramework>
         <Nullable>enable</Nullable>
         <IsBindingProject>true</IsBindingProject>
-        <AssemblyName>FloatingPanel</AssemblyName>
-        <RootNamespace>FloatingPanel</RootNamespace>
+        <AssemblyName>scenee.FloatingPanel</AssemblyName>
+        <RootNamespace>scenee.FloatingPanel</RootNamespace>
         <MtouchExtraArgs>-ObjC</MtouchExtraArgs>
     </PropertyGroup>
     <PropertyGroup>
         <!-- NuGet Package properties -->
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <Version>2.8.6.1</Version>
         <Authors>Artem Valieiev</Authors>
         <IncludeSymbols>true</IncludeSymbols>
         <Product>scenee.FloatingPanel</Product>
+        <PackageId>scenee.FloatingPanel</PackageId>
+        <ProductName>Scenee.FloatingPanel</ProductName>
         <Description>Binding library for clean and easy-to-use floating panel UI component for dotnet iOS.</Description>
         <RepositoryUrl>https://github.com/artemvalieiev/scenee.FloatingPanel.dotnet</RepositoryUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

@@ -4,13 +4,14 @@
         <OutputType>Exe</OutputType>
         <Nullable>enable</Nullable>
         <ImplicitUsings>true</ImplicitUsings>
-        <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>        <!--
+        <SupportedOSPlatformVersion>12.2</SupportedOSPlatformVersion>        
+        <!--
           Enable full trimming in Release mode.
           To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/trimming-options#trimming-granularity
         -->
-        <TrimMode Condition="'$(Configuration)' == 'Release'">None</TrimMode>
+        <!--<TrimMode Condition="'$(Configuration)' == 'Release'">None</TrimMode> -->
     </PropertyGroup>
     <ItemGroup>
-      <ProjectReference Include="..\FloatingPanel\FloatingPanel.csproj" />
+      <ProjectReference Include="..\Scenee.FloatingPanel\Scenee.FloatingPanel.csproj" />
     </ItemGroup>
 </Project>
